@@ -1,0 +1,49 @@
+@font-face {
+  font-family: PressStart;
+  src: url(PressStart2P.ttf);
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+body {
+  text-align: center;
+  font-family: PressStart, serif;
+}
+
+h1 {
+  font-family: PressStart, serif;
+  margin-top: 50px;
+}
+
+p {
+  font-family: PressStart, serif;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.hidden-coin {
+  position: absolute;
+  top: -500px
+}
+.hidden-coin2 {
+  position: absolute;
+  top: -500px;
+  left: -0px;
+}
+.hidden-coin3 {
+  position: absolute;
+  top: -500px;
+  left: +100px;
+}
+
+.container {
+  text-align: center;
+}
+
+.nes-btn {
+  font-family: PressStart, serif;
+}

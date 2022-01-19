@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- minify -->
+  <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+  <!-- latest -->
+  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+  <!-- core style only -->
+  <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-content">
+        <section class="topic">
+            <h1>100£</h1>
+            <img src="front.png" alt="coin">
+            <img class="hidden-coin" src="front.png" alt="coin">
+            <img class="hidden-coin2" src="front.png" alt="coin">
+            <img class="hidden-coin3" src="front.png" alt="coin">
+            <br>
+            <button class="nes-btn" onclick="tossCoin('Heads')">Heads</button>
+            <button class="nes-btn" onclick="tossCoin('Tails')">Tails</button>
+            <p id="result" class="description nes-text">Result</p>
+            <script src="script.js"></script>
+        </section>   
+      </div>
+    </div>
+  </body>
+</html>
